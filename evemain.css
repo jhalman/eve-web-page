@@ -1,0 +1,138 @@
+
+:root {
+    --main-bg-color: #CDE5EE;	
+	--sec-bg-color: #67AFCB;
+
+    --main-menu-color: #1A3E4C; 
+	--select-menu-color: #67AFCB; 
+	
+	--main-em-color: #347B98; 
+	--sec-em-color: #347B98;
+}
+
+body {
+  font-family: Arial, Verdana;
+  background-color: var(--main-bg-color);
+/*   background-position: center top;
+  background-size: cover;
+  padding: 20;
+  margin: 100; */
+}
+
+h1 {
+	color: var(--main-em-color);
+	text-align: left;
+}
+
+h2{
+	 color: var(--sec-em-color);
+	 text-align: left;
+ }
+ 
+h2.italic {
+	 color: var(--sec-em-color);
+	 font-style: italic;
+ }
+
+p {
+	color: black;
+}
+
+footer {
+	text-align: center;
+}
+
+nav.main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--main-menu-color);
+}
+nav.main li {
+    float: right;
+}
+nav.main li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+nav.main li a:hover {
+    background-color: var(--select-menu-color);
+}
+nav.main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--main-menu-color);
+}
+nav.main li {
+    float: right;
+}
+
+nav.main li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+nav.main li a:hover {
+    background-color: var(--select-menu-color);
+}
+
+
+#googlemap {
+	width: 400px;
+	height: 300px;
+	border: 5px solid var(--sec-bg-color);
+    padding: 25px;
+    margin: 25px;
+}
+
+#boxtitle {
+	background-color: var(--sec-bg-color);
+	margin: 50px;
+
+	font-size: 200%;
+	text-align: center;
+	color: white;
+	
+	border: 2px solid white;
+ 	padding: 25px;
+
+}
+	
+div.intro {
+	background-color: var(--main-bg-color);		
+	margin: auto;	
+    max-width: 800px;
+    height: auto;
+
+	border: 1px solid white;
+	padding: 10px;
+}
+
+div.gallery {
+	margin: 5px;
+	border: 5px solid var(--sec-bg-color);
+	float: left;
+	width: 180px;
+}
+
+div.gallery:hover {
+	border: 5px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
